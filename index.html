@@ -1,63 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <title>EagleNest</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Virus Alert!</title>
+    <style>
+        body {
+            background-color: #ff0000; /* Red background */
+            color: white;
+            font-family: monospace;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .alert-box {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            font-size: 1.2em;
+        }
+        
+        .virus-icon {
+            width: 100px;
+            height: 100px;
+            background-image: url("virus-icon.png"); /* Replace with your virus icon image */
+            background-size: cover;
+            margin-bottom: 20px;
+            border-radius: 50%;
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li class="navtextli title"><a href="#home" class="navtext gabarito-bold">EagleNest</a></li>
-            <li class="navtextli nav-options"><a href="#home" class="navtext gabarito-normal">Home</a></li>
-            <li class="navtextli nav-options"><a href="#updates" class="navtext gabarito-normal">Updates</a></li>
-            <li class="navtextli nav-options"><a href="#calendar" class="navtext gabarito-normal">Calendar</a></li>
-            <li class="navtextli nav-options"><a href="#catalog" class="navtext gabarito-normal">Catalog</a></li>
-            <li class="navtextli nav-options"><a href="#username" class="navtext gabarito-normal">John</a></li>
-        </ul>
-    </nav>
-    <main>
-        
-        <div class="main-bar">
-            <div id="location" class="gabarito-normal">
-                Catalog
-            </div>
-            <div id="slash" class="gabarito-normal">
-                /
-            </div>
-            <div class="gabarito-bold">
-                Drama Club
-            </div>
-        </div>
-        <div class="main-page">
-            <div class="info-description">
-            </div>
-            <div class="list-of-options">
-                <div class="option">
-                </div>
-                <div class="option">
-                    
-                </div>
-                <div class="option">
-                    
-                </div>
-                <div class="option">
-                    
-                </div>
-                <div class="option">
-                    
-                </div>
-            </div>
-        </div>
-        <div></div>
-    </main>
-    <footer>
-        
-    </footer>
+    <div class="alert-box">
+        <div class="virus-icon"></div>
+        <h1>Warning: Virus Detected!</h1>
+        <p>Your computer is infected with a virus. Please take immediate action to clean your system.</p>
+        <p>Contact your administrator for further instructions.</p>
+    </div>
 </body>
-</html>
+</html> 
