@@ -108,6 +108,28 @@ ul {
     background-color: var(--Dark);
     color: white;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.info-description img {
+    background-image: url("./Images/dramaclublogo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 445px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.info {
+    margin: 0px 50px;
+    font-size: 24px;
+    overflow: hidden;
+}
+
+.info-title {
+    font-size: 28px;
 }
 
