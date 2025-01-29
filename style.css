@@ -66,6 +66,10 @@ ul {
     list-style-type: none;
 }
 
+a:hover{
+    color: yellow;
+}
+
 .navtext {
     text-align: center;
     color: var(--Text-Main);
@@ -86,6 +90,7 @@ ul {
     text-transform: uppercase;
     color: white;
     font-size: 24px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
 }
 
 .title {
@@ -149,15 +154,26 @@ ul {
 }
 
 .option{
-    height: 125px;
+    height: 105px;
     width: 100%;
     background-color: var(--Dark);
     color: white;
     border-radius: 25px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    padding-left: 35px;
+    justify-content: space-between;
+    padding: 0px 35px 0px 35px;
     font-size: 1.5em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./Images/options-background.png');
+}
+
+.arrow {
+    background-image: url('./Images/arrow.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 30px;
 }
 
