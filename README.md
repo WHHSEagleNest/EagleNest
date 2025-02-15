@@ -1,2 +1,2 @@
 # EagleNest
-Priorities: L bozo
+Project Made By Walnut Hills High School Programming Club
